@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    overflow: auto;
+}
+
+circle {
+    fill: red;
+    opacity: 0.3;
+}
+
+text {
+    font-family: sans-serif;
+}
+
+.tick text {
+    font-size: 2.7em;
+    fill: #635F5D;
+}
+
+.tick line {
+    stroke: #C0C0BB;
+}
+
+.axis-label {
+    font-size: 5em;
+    fill: #8E8883;
+}
+
+.title {
+    font-size: 3.7em;
+    fill: #635F5D;
+}
+.bar rect {
+    fill: steelblue;
+    shape-rendering: crispEdges;
+}
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.line {
+    fill: none;
+    stroke: purple;
+    stroke-width: 1.5px;
+}
+.flex-container {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}
+
+.flex-container > div {
+    background-color: #f1f1f1;
+    margin: 1px;
+    padding: 20px;
+    font-size: 16px;
+
+}
+p {
+    padding: 35px;
+}
